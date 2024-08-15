@@ -1,7 +1,4 @@
 App.AdminMethod=SourceRCON
-App.ForceIPBinding=True
-App.SupportsIPv6=False
-App.ApplicationIPBinding=0.0.0.0
 App.Ports=@IncludeJson[jabroni-brawl-3ports.json]
 App.AdminPortRef=ServerPort
 App.PrimaryApplicationPortRef=ServerPort
