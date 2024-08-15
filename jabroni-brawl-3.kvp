@@ -27,6 +27,7 @@ Console.UserChatRegex=^(?<username>.+?): (?<message>.+)$
 Console.UserJoinRegex=^User (?<username>.+?) \((?<userid>-?d+)\) connected from \[::ffff:(?<endpoint>.+?)\]$
 Console.UserLeaveRegex=^User (?<username>.+?) \((?<userid>-?d+)\) disconnected\. Reason: (.+?)$
 Meta.Author=Kyle Blackmon
+Meta.AppConfigId=299698c7-58d1-4dce-93aa-c87203eeaab0
 Meta.ConfigManifest=jabroni-brawl-3config.json
 Meta.ConfigRoot=jabroni-brawl-3.kvp
 Meta.Description=
