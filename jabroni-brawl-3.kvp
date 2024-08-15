@@ -24,6 +24,7 @@ App.RCONConnectDelaySeconds=5
 App.RCONConnectRetrySeconds=5
 App.RCONHeartbeatMinutes=0
 App.RCONHeartbeatCommand=ping
+App.RemoteAdminPassword=
 Console.AppReadyRegex=^Server is ready.$
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
 Console.UserChatRegex=^(?<username>.+?): (?<message>.+)$
