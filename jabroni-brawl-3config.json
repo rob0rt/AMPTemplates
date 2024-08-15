@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Host Name",
-        "Category": "",
+        "Category": "Jabroni Brawl - Settings",
         "Description": "Sets the host name",
         "Keywords": "host name",
         "FieldName": "hostname",
@@ -14,7 +14,7 @@
     },
     {
         "DisplayName": "All Talk enabled",
-        "Category": "",
+        "Category": "Jabroni Brawl - Settings",
         "Description": "set this to 1 to allow players to always hear each other via voice chat, whether dead, alive or on a different team.",
         "Keywords": "",
         "FieldName": "sv_alltalk",
