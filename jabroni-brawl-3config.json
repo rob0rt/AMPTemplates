@@ -30,14 +30,13 @@
     },
     {
         "DisplayName":"RCON Password",
-        "Category":"Jabroni Brawl - Settings",
-        "Subcategory":"Server Settings:settings:1",
-        "Description":"See the Security and Privacy menu for configurable options for the server's RCON",
-        "Keywords":"rcon,password,rcon_password",
-        "FieldName":"$RemoteAdminPassword",
-        "InputType":"hidden",
-        "IsFlagArgument":false,
+        "Category": "Jabroni Brawl - Settings",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "$RemoteAdminPassword",
+        "InputType": "text",
+        "Hidden": true,
         "ParamFieldName":"rcon_password",
         "EnumValues":{}
-    },
+    }
 ]
