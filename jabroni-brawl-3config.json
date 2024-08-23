@@ -63,5 +63,30 @@
         "DefaultValue":"",
         "Placeholder":"6544F7E034119F113526E96474F559AH",
         "EnumValues":{}
+    },
+    {
+        "DisplayName":"Server Password",
+        "Category": "Jabroni Brawl - Settings",
+        "Description":"Sets the password required to connect to the server. Default is no password",
+        "Keywords":"server,password,sv_password",
+        "FieldName":"sv_password",
+        "InputType":"password",
+        "ParamFieldName":"sv_password",
+        "DefaultValue":"",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"LAN Server",
+        "Category": "Jabroni Brawl - Settings",
+        "Description":"If enabled, the server will operate as a LAN server: no heartbeat, no authentication",
+        "Keywords":"lan,local,sv_lan",
+        "FieldName":"sv_lan",
+        "InputType":"checkbox",
+        "ParamFieldName":"sv_lan",
+        "DefaultValue":"0",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
     }
 ]
