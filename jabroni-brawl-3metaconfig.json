@@ -1,0 +1,8 @@
+[
+    {
+        "ConfigFile":"jbep3/cfg/server.cfg",
+        "AutoMap":true,
+        "ConfigType":"template",
+        "ConfigFileTemplate":"jbep3/AMP_server.cfg"
+    }
+]
