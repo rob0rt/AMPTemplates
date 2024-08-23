@@ -30,7 +30,6 @@ App.UseRandomAdminPassword=True
 App.PersistRandomPassword=True
 App.AdminLoginTransform=None
 App.LoginTransformPrefix= 
-Console.AppReadyRegex=^Server is ready.$
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
 Console.UserChatRegex=^(?<username>.+?): (?<message>.+)$
 Console.UserJoinRegex=^User (?<username>.+?) \((?<userid>-?d+)\) connected from \[::ffff:(?<endpoint>.+?)\]$
