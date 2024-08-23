@@ -1,0 +1,18 @@
+[
+  {
+        "UpdateStageName":"SteamCMD Server Download",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"SteamCMD",
+        "UpdateSourceData":"869800",
+        "UpdateSourceArgs":"869480"
+    },
+    {
+        "UpdateStageName":"Server.cfg Template File Download",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"FetchURL",
+        "UpdateSourceData":"https://raw.githubusercontent.com/rob0rt/AMPTemplates/main/jabroni-brawl-3server.cfg",
+        "UpdateSourceArgs":"AMP_server.cfg",
+        "UpdateSourceTarget":"{{$FullRootDir}}",
+        "OverwriteExistingFiles":true
+    },
+]
