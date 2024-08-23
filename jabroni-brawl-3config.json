@@ -3,29 +3,25 @@
         "DisplayName": "Host Name",
         "Category": "Jabroni Brawl - Settings",
         "Description": "Sets the host name",
-        "Keywords": "host name",
+        "Keywords": "server,name,hostname",
         "FieldName": "hostname",
         "InputType": "text",
-        "IsFlagArgument": false,
         "ParamFieldName": "hostname",
-        "IncludeInCommandLine": true,
-        "DefaultValue": "\"Jabroni Brawl: Episode 3\"",
+        "DefaultValue": "Jabroni Brawl: Episode 3",
         "EnumValues": {}
     },
     {
         "DisplayName": "All Talk enabled",
         "Category": "Jabroni Brawl - Settings",
         "Description": "set this to 1 to allow players to always hear each other via voice chat, whether dead, alive or on a different team.",
-        "Keywords": "",
+        "Keywords": "all,talk,alltalk",
         "FieldName": "sv_alltalk",
         "InputType": "checkbox",
-        "IsFlagArgument": false,
         "ParamFieldName": "sv_alltalk",
-        "IncludeInCommandLine": true,
         "DefaultValue": "1",
         "EnumValues": {
-            "0": "False",
-            "1": "True"
+            "False": "0",
+            "True": "1"
         }
     },
     {
@@ -47,8 +43,8 @@
         "FieldName":"$MaxUsers",
         "InputType":"number",
         "MinValue":"1",
-        "MaxValue":"100",
-        "ParamFieldName":"maxplayers",
+        "MaxValue":"128",
+        "ParamFieldName":"sv_maxplayers",
         "DefaultValue":"8",
         "Placeholder":"8",
         "Suffix":"players",
