@@ -41,7 +41,6 @@ App.ForceUpdateReason=
 App.Compatibility=None
 App.SteamUpdateAnonymousLogin=True
 App.SteamForceLoginPrompt=False
-App.ForceIPBinding=True
 App.SupportsIPv6=False
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
 Console.AppReadyRegex=^SV:  Connection to Steam servers successful\.$
