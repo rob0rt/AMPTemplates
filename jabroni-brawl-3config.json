@@ -98,14 +98,14 @@
         }
     },
     {
-        "DisplayName":"Short Bus",
+        "DisplayName":"Rock The Vote",
         "Category": "Jabroni Brawl",
-        "Subcategory": "Team Death Match:groups_3:2",
-        "Description": "Enable Short Bus modifier (inverted controls)",
-        "Keywords": "inverted,controls,shortbus,short,bus",
-        "FieldName": "jb_sv_tdm_mutator_inverted_enabled",
+        "Subcategory": "Global Game Settings:globe:2",
+        "Description": "Enable changing of the gamemode or map by saying \"rtv\" in chat",
+        "Keywords": "rtv,rockthevote,rock,the,vote",
+        "FieldName": "jb_sv_rtv_enabled",
         "InputType": "checkbox",
-        "ParamFieldName": "jb_sv_tdm_mutator_inverted_enabled",
+        "ParamFieldName": "jb_sv_rtv_enabled",
         "DefaultValue": "1",
         "EnumValues": {
             "False": "0",
@@ -113,9 +113,40 @@
         }
     },
     {
+        "DisplayName":"RTV Initial Delay",
+        "Category": "Jabroni Brawl",
+        "Subcategory": "Global Game Settings:globe:2",
+        "Description":"Time (in seconds) before first RTV can be held",
+        "Keywords":"rtv,rockthevote,delay",
+        "FieldName":"jb_sv_rtv_initialdelay",
+        "InputType":"number",
+        "MinValue":"0",
+        "MaxValue":"300",
+        "ParamFieldName":"jb_sv_rtv_initialdelay",
+        "DefaultValue":"45",
+        "Placeholder":"45",
+        "Suffix":"seconds",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"RTV Required Percentage",
+        "Category": "Jabroni Brawl",
+        "Subcategory": "Global Game Settings:globe:2",
+        "Description":"Percentage of players needed to rock the vote",
+        "Keywords":"rtv,rockthevote",
+        "FieldName":"jb_sv_rtv_needed",
+        "InputType":"number",
+        "MinValue":"0",
+        "MaxValue":"1",
+        "ParamFieldName":"jb_sv_rtv_needed",
+        "DefaultValue":"0.6",
+        "Placeholder":"0.6",
+        "EnumValues":{}
+    },
+    {
         "DisplayName":"Short Bus",
         "Category": "Jabroni Brawl",
-        "Subcategory": "Death Match:sentiment_very_dissatisfied:2",
+        "Subcategory": "Death Match:sentiment_very_dissatisfied:3",
         "Description": "Enable Short Bus modifier (inverted controls)",
         "Keywords": "inverted,controls,shortbus,short,bus",
         "FieldName": "jb_sv_dm_mutator_inverted_enabled",
@@ -128,9 +159,24 @@
         }
     },
     {
+        "DisplayName":"Short Bus",
+        "Category": "Jabroni Brawl",
+        "Subcategory": "Team Death Match:groups_3:4",
+        "Description": "Enable Short Bus modifier (inverted controls)",
+        "Keywords": "inverted,controls,shortbus,short,bus",
+        "FieldName": "jb_sv_tdm_mutator_inverted_enabled",
+        "InputType": "checkbox",
+        "ParamFieldName": "jb_sv_tdm_mutator_inverted_enabled",
+        "DefaultValue": "1",
+        "EnumValues": {
+            "False": "0",
+            "True": "1"
+        }
+    },
+    {
         "DisplayName":"Mutators",
         "Category": "Jabroni Brawl",
-        "Subcategory": "Battle Royale:swords:3",
+        "Subcategory": "Battle Royale:swords:5",
         "Description": "Enable randomized occasional special round types",
         "Keywords": "mutator,mutators",
         "FieldName": "jb_sv_br_mutators",
