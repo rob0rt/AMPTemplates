@@ -111,5 +111,35 @@
             "False": "0",
             "True": "1"
         }
+    },
+    {
+        "DisplayName":"Short Bus",
+        "Category": "Jabroni Brawl",
+        "Subcategory": "Death Match:sentiment_very_dissatisfied:2",
+        "Description": "Enable Short Bus modifier (inverted controls)",
+        "Keywords": "inverted,controls,shortbus,short,bus",
+        "FieldName": "jb_sv_dm_mutator_inverted_enabled",
+        "InputType": "checkbox",
+        "ParamFieldName": "jb_sv_dm_mutator_inverted_enabled",
+        "DefaultValue": "1",
+        "EnumValues": {
+            "False": "0",
+            "True": "1"
+        }
+    },
+    {
+        "DisplayName":"Mutators",
+        "Category": "Jabroni Brawl",
+        "Subcategory": "Battle Royale:swords:3",
+        "Description": "Enable randomized occasional special round types",
+        "Keywords": "mutator,mutators",
+        "FieldName": "jb_sv_br_mutators",
+        "InputType": "checkbox",
+        "ParamFieldName": "jb_sv_br_mutators",
+        "DefaultValue": "1",
+        "EnumValues": {
+            "False": "0",
+            "True": "1"
+        }
     }
 ]
