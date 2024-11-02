@@ -98,6 +98,34 @@
         }
     },
     {
+        "DisplayName":"Allow Download From Server",
+        "Category": "Jabroni Brawl",
+        "Subcategory": "Server Settings:settings:1",
+        "Description":"If set, clients will be allowed to download content from the server (maps, sprays and related)",
+        "Keywords":"allow,download,content,maps,sv_allowdownload",
+        "FieldName":"sv_allowdownload",
+        "InputType":"checkbox",
+        "ParamFieldName":"sv_allowdownload",
+        "DefaultValue":"1",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+    {
+        "DisplayName":"Fast Download URL",
+        "Category": "Jabroni Brawl",
+        "Subcategory": "Server Settings:settings:1",
+        "Description":"Sets the URL for clients to download custom content from, instead of sourcing the content from the server. This allows for faster downloads",
+        "Keywords":"fastdl,download,url,sv_downloadurl",
+        "FieldName":"sv_downloadurl",
+        "InputType":"text",
+        "ParamFieldName":"sv_downloadurl",
+        "DefaultValue":"",
+        "Placeholder":"http://example.com",
+        "EnumValues":{}
+    },
+    {
         "DisplayName":"Rock The Vote",
         "Category": "Jabroni Brawl",
         "Subcategory": "Global Game Settings:globe:2",
